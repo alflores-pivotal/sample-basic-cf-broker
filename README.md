@@ -32,6 +32,9 @@ To change this, you need to modify its access control. This can be done with the
 
 This sample service broker app hardcodes the service name "your-sample-service"
 
+## Notes
+Be careful not to confuse the name of the CF app (sample-service) defined in the manifest and the service broker (your-sample-service).
+
 ## References:
 * http://docs.cloudfoundry.org/services/managing-service-brokers.html
 * http://docs.cloudfoundry.org/services/access-control.html
