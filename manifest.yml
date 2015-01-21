@@ -1,0 +1,6 @@
+---
+applications:
+- name: sample-service
+  memory: 1024M
+  timeout: 60
+  path: ./target/sample-service-0.0.1-SNAPSHOT.war
